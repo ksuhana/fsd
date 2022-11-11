@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>sample</title>
+</head>
+<body bgcolor="pink">
+<h1>enter 1st number</h1><br>
+<input type="text" name="n1 number" size="15"/><br>
+<h2>enter 2nd number</h2><br>
+<input type="text" name="n2 number" size="15"/><br>
+<button value="add" onclick="addition()">add</button>
+<button value="add" onclick="substract()">sub</button>
+<button value="add" onclick="multiplication()">mul</button>
+<button value="add" onclick="division()">div</button>
+<h2>total sum</h2>
+<input type="text" id="result" name="result"/>
+<script>
+function addition()
+{
+const a=parseInt(document.getElementByIdName("n1").value);
+const b=parseInt(document.getElementByIdName("n2").value);
+const c=a+b;
+document.getElementByIdName("Result").value=c;
+}
+function substract()
+{
+const a=parseInt(document.getElementByIdName("n1").value);
+const b=parseInt(document.getElementByIdName("n2").value);
+const c=a-b;
+document.getElementByIdName("Result").value=c;
+}
+function multiple()
+{
+const a=parseInt(document.getElementByIdName("n1").value);
+const b=parseInt(document.getElementByIdName("n2").value);
+const c=a*b;
+document.getElementByIdName("Result").value=c;
+}
+function division()
+{
+const a=parseInt(document.getElementByIdName("n1").value);
+const b=parseInt(document.getElementByIdName("n2").value);
+const c=a/b;
+document.getElementByIdName("Result").value=c;
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
