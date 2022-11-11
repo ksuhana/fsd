@@ -1,0 +1,16 @@
+<doctype html>
+    <html>
+        <head>
+            <title>example</title>
+        </head>
+        <body bgcolor="yellow"  text="black">
+            <pre>
+            <h1>WELCOME TO IMAGINATION WORLD</h1>
+            <h2>WELCOME TO IMAGINATION WORLD</h2>
+            <h3>WELCOME TO IMAGINATION WORLD</h3>
+            <h4>WELCOME TO IMAGINATION WORLD</h4>
+            <h5>WELCOME TO IMAGINATION WORLD</h5>
+            <h6>WELCOME TO IMAGINATION WORLD</h6>
+            </pre>
+        </body>
+    </html>
